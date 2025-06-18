@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+#input {
+    padding: 10px;
+    background-color: #17202a;
+    border: 1px solid #99a3a4;
+    color: white;
+    border-radius: 10px;
+    width: 25%;
+    margin-top: 23%;
+}  
+
+.container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#bottom-nav {
+    width: 100vw;
+    height: 1.5rem;
+    background-color: #2f2f2f;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+a {
+    color: #978f8f;
+    margin-right: 25px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: white;
+}
